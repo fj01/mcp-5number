@@ -8,7 +8,8 @@
     "mcp-5number": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && node -e \"try{require('fs').chmodSync('build/index.js', 0o755)}catch(e){}\""
+    "build": "tsc && node -e \"try{require('fs').chmodSync('build/index.js', 0o755)}catch(e){}\"",
+    "start": "node index.js"
   },
   "files": [
     "build"
