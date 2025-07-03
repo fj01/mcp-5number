@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "mcp-example": "./build/index.js"
+    "mcp-5number": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && node -e \"try{require('fs').chmodSync('build/index.js', 0o755)}catch(e){}\""
